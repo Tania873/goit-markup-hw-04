@@ -91,20 +91,18 @@ body {
 .auth-nav .link:focus {
   color: var(--accent-colour);
 }
-
 .header-icon {
   display: inline-block;
-  margin-right: 10px;
-  align-self: center;
 }
 .header-icon-svg {
   fill: var(--paragraph-text-color);
+  margin-right: 10px;
 }
+
 .header-icon:hover .header-icon-svg,
 .header-icon:focus .header-icon-svg {
   fill: var(--accent-colour);
 }
-
 /* Герой */
 .hero {
   text-align: center;
